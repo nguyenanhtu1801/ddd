@@ -9,6 +9,8 @@ function hu(){
   var x = document.getElementById("selector").value;
   var b = data[x].img
   document.getElementById("ola").innerHTML = b;
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0
 }
 
 function chaptruoc(){
